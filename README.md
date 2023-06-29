@@ -27,22 +27,19 @@ Using jtwc is as simple as breathing. Just follow these steps:
 - To count the number of lines, use the `-l` option:
 
   ```
-  jtwc
- -l test.txt
+  jtwc -l test.txt
   ```
 
 - To count the number of bytes, use the `-c` option:
 
   ```
-  jtwc
- -c test.txt
+  jtwc -c test.txt
   ```
 
 - To experience jtwc's sentiment analysis, simply omit any options:
 
   ```
-  jtwc
- test.txt
+  jtwc test.txt
   ```
 
 4. **Standard Input**: jtwc goes beyond ordinary tools by supporting standard input. You can pipe text into jtwc and watch the magic happen:
